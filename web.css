@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
 .topnav{
@@ -10,15 +10,16 @@ body {
     float: right;
     color: rgb(242, 255, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
     font-size: 30px;
 }
 .topnav a:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(130, 224, 67);
     color: rgb(255, 255, 255);
 }
 .topnav a.active{
-    background-color: mediumspringgreen;
-    color: rgb(255, 0, 0);
+    background-color: rgb(5, 196, 235);
+    color: rgb(255, 72, 0);
 }
+
