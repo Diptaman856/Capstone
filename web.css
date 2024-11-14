@@ -1,6 +1,7 @@
 body {
     margin: 2;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 226, 151);
 }
 .topnav{
   overflow: hidden;
@@ -10,9 +11,9 @@ body {
     float: right;
     color: rgb(242, 255, 0);
     text-align: center;
-    padding: 16px 18px;
+    padding: 10px 10px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
 }
 .topnav a:hover{
     background-color: rgb(130, 224, 67);
@@ -21,5 +22,13 @@ body {
 .topnav a.active{
     background-color: rgb(5, 196, 235);
     color: rgb(255, 72, 0);
-}
 
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
