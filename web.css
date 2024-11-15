@@ -1,26 +1,26 @@
 body {
     margin: 2;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 226, 151);
+    background-color: rgb(240, 205, 116);
 }
 .topnav{
   overflow: hidden;
-  background-color:  #1f2020aa;
+  background-color:  #000000;
 }
 .topnav a{
     float: right;
     color: rgb(242, 255, 0);
     text-align: center;
-    padding: 10px 10px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 30px;
 }
 .topnav a:hover{
     background-color: rgb(130, 224, 67);
     color: rgb(255, 255, 255);
 }
 .topnav a.active{
-    background-color: rgb(5, 196, 235);
+    background-color: rgb(33, 212, 248);
     color: rgb(255, 72, 0);
 
 }
@@ -31,4 +31,14 @@ p {
     font-size: 23px;
     letter-spacing: 1px;
     text-align: justify;
+}
+#social-media {
+    background: #313552;
+}
+.media-link {
+    padding: 20px;
+    max-width: 15rem;
+    margin-left: 1 rem;
+    border: 2px solid #f5ba09;
+    border-radius: 10px;
 }
