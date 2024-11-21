@@ -10,7 +10,13 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <link href="web.css" rel="stylesheet">
+    <style>
+        .slink{
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -43,10 +49,11 @@
         <div class="row pt-5">
 
             <!--scratch-->
-            <div class="col-3 media-link btn" href="#">
+            <div class="col-3 media-link btn" >
                <div class="col-6 d-flex justify-content-start">
                   <div class="row">
-                <h3 class="m-0 pt-2 text-white">Scratch</h3>
+                <h3 class="m-0 pt-2 text-white">
+                   <a class="slink" href="https://scratch.mit.edu/mystuff/">Scratch</a></h3>
                </div> 
 
                <div class="col-6 d-flex justify-content-end align items-center">
@@ -56,10 +63,11 @@
         </div>
 
         <!--Thunkable-->
-        <div class="col-3 media-link btn" href="https://x.thunkable.com/projects">
+        <div class="col-3 media-link btn">
             <div class="col-6 d-flex justify-content-start">
                 <div class="row">
-                    <h3 class="m-0 pt-2 text-white">Thunkable</h3>
+                    <h3 class="m-0 pt-2 text-white">
+                        <a class="slink"  href="https://x.thunkable.com/projects">Thunkable </a></h3>
                 </div>
         
                 <div class="col-6 d-flex justify-content-end align items-center">
@@ -72,7 +80,8 @@
         <div class="col-3 media-link btn" href="#">
             <div class="col-6 d-flex justify-content-start">
                 <div class="row">
-                    <h3 class="m-0 pt-2 text-white">GitHub</h3>
+                    <h3 class="m-0 pt-2 text-white">  
+                        <a class="slink"  href="https://github.com/">GitHub</a>  </h3>
                 </div>
         
                 <div class="col-6 d-flex justify-content-end align items-center">
@@ -85,7 +94,8 @@
         <div class="col-3 media-link btn" href="#">
             <div class="col-6 d-flex justify-content-start">
                 <div class="row">
-                    <h3 class="m-0 pt-2 text-white">Codingal</h3>
+                    <h3 class="m-0 pt-2 text-white">
+                        <a class="slink"  href="https://www.codingal.com/en-US/student/dashboard">Codingal</a></h3>
                 </div>
         
                 <div class="col-6 d-flex justify-content-end align items-center">
@@ -97,5 +107,33 @@
         </div>
         </div>
         </div>
+
+        <br>
+        <br>
+        <u><h3>Contact With Us by Giving Informations Below on the Form</h3></u>
+        <form id="f1">
+            <p>Personal Info</p>
+                
+            <label>Full name :</label>
+            <input type="text" required placeholder="Write your full name">
+             <br>
+
+            <label>Phone Number :</label>
+            <input type="number" required placeholder="Give your phone number here">
+            <br>
+
+            <label>Email :</label>
+            <input type="text" required placeholder="Write your E-mail here">
+            <br>
+             <label>Messsage :</label>
+             <textarea class="form-control">
+              
+             </textarea>
+                   <br>
+            <center> <button id="btn1">SUBMIT</button> </center>
+
+            
+            
+        </form>
 
     </body>
